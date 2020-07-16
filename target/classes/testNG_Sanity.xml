@@ -1,0 +1,8 @@
+<suite name="ITM web application Test Automation Suite">
+ <test name="ITM App Test cases">
+   <classes>
+    <class name="com.qa.TestCases.LoginPageTest"></class>
+    <class name="com.qa.TestCases.HomePageTest"></class>
+   </classes>
+</test>
+</suite>

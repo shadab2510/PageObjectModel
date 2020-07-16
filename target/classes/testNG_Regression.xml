@@ -1,0 +1,19 @@
+<suite name="ITM web application Test Automation Suite">
+
+<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+<test name="ITM App Test cases">
+<classes>
+
+ <!-- <class name="com.qa.TestCases.DevicesPageTest"></class> -->
+<!-- <class name="com.qa.TestCases.HomePageTest"></class> -->
+<class name="com.qa.TestCases.LoginPageTest"></class>
+<!-- <class name="com.qa.TestCases.MyItemsTest"></class> -->
+
+
+
+</classes>
+</test>
+</suite>
