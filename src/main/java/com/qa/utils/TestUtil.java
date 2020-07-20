@@ -68,17 +68,7 @@ public class TestUtil extends TestBase{
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	/*
 	 * public static Workbook book; public static Sheet sheet;
 	 * 
@@ -100,6 +90,7 @@ public class TestUtil extends TestBase{
 	{
 		try{Thread.sleep(2000);}
 		catch(Exception e){
+			e.printStackTrace();
 			
 		}
 	}

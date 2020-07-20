@@ -33,7 +33,7 @@ public class DevicesPage extends TestBase {
 	@FindBy(css="[type='search']")
 	public WebElement DeviceModelTextBox;
 	
-	@FindBy(xpath="//span[text()='Select Companyyyyyyyyyyyyyyyyyyyyyyy']")
+	@FindBy(xpath="//span[text()='Select Company']")
 	public WebElement Company;
 	
 	@FindBy(css="[type='search']")
