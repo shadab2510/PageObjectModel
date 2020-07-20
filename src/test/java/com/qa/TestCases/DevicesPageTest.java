@@ -53,14 +53,13 @@ public class DevicesPageTest extends TestBase {
 		String url=dp.VerifyCurrentUrl();
 		Assert.assertEquals(url, "https://itassetmanagement.in/travel_triangle/devices","Actual url is not the same as expected");
 	}
-	@Test(priority=3)
-	public void VerifyAddDevice()
-	{
-		dp.clickOnAddDevice();
-		
-		Assert.assertTrue(dp.ValidateAddDevice());
-		
-	}
+	/*
+	 * @Test(priority=3) public void VerifyAddDevice() { dp.clickOnAddDevice();
+	 * 
+	 * Assert.assertTrue(dp.ValidateAddDevice());
+	 * 
+	 * }
+	 */
 	
 	@DataProvider
 	public Object[][] getITMDeviceData()
