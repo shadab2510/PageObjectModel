@@ -89,7 +89,7 @@ public class DevicesPageTest extends TestBase {
 	
 	public void tearDown()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 
 	
