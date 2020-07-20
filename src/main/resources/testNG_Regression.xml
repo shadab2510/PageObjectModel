@@ -7,10 +7,10 @@
 <test name="ITM App Test cases">
 <classes>
 
- <!-- <class name="com.qa.TestCases.DevicesPageTest"></class> -->
-<!-- <class name="com.qa.TestCases.HomePageTest"></class> -->
+ <class name="com.qa.TestCases.DevicesPageTest"></class> 
+<class name="com.qa.TestCases.HomePageTest"></class>
 <class name="com.qa.TestCases.LoginPageTest"></class>
-<!-- <class name="com.qa.TestCases.MyItemsTest"></class> -->
+<class name="com.qa.TestCases.MyItemsTest"></class> 
 
 
 
