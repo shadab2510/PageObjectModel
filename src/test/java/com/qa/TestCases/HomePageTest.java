@@ -37,7 +37,7 @@ public class HomePageTest extends TestBase {
 		 public void HomePageTitleTest()
 		 {
 			String title= hp.validateHomePageTitle();
-			Assert.assertEquals(title, "Login - ITM","Title is not as expected");
+			Assert.assertEquals(title, "Dashboard - ITM","Title is not as expected");
 		 }
 		 @Test(priority=2)
 		 public void validateLogoTest()
